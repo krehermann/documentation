@@ -138,7 +138,10 @@ Ganache is a mock testnet. Although you can run nodes on Ganache, it is not offi
 
    ```shell
    docker ps -a -f name=chainlink
+   ```
 
+   The resulting output should look like
+   ```
    CONTAINER ID   IMAGE                            COMMAND               CREATED         STATUS                   PORTS                    NAMES
    feff39f340d6   smartcontract/chainlink:1.12.0   "chainlink local n"   4 minutes ago   Up 4 minutes (healthy)   0.0.0.0:6688->6688/tcp   chainlink
    ```
